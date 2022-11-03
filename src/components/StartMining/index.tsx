@@ -45,7 +45,7 @@ export function StartMining() {
           </Text>
         </Box>
 
-        <Box w={'566px'} h={'55px'} position={'relative'}>
+        <Box w={['300px', '566px']} h={'55px'} position={'relative'}>
           {isWideVersion && (
             <Image src={bitcoinVector} position={'absolute'} left={'450px'} />
           )}

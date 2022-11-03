@@ -16,7 +16,7 @@ export function Features() {
     <Flex
       as="section"
       w={'100%'}
-      h={['2100px', '1874px']}
+      h={['2200px', '1874px']}
       bg="purple.900"
       flexDir={'column'}
       align={'center'}
@@ -115,7 +115,7 @@ export function Features() {
 
       <Flex align={'center'} mt={'204px'} flexDirection={['column', 'row']}>
         <Box
-          w={['350px', '710px']}
+          w={['300px', '710px']}
           h={['300px', '453px']}
           mr={[0, '89px']}
           borderRadius={31}

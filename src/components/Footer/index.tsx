@@ -23,7 +23,7 @@ export function Footer() {
         templateColumns={['repeat(1, 1fr)', 'repeat(4, 1fr)']}
         gap={[8, 0]}
         justifyItems={'start'}
-        w={['300px', '1200px']}
+        w={['280px', '1200px']}
       >
 
         <GridItem w="50px" h="auto">
@@ -48,10 +48,10 @@ export function Footer() {
           link5="Interest" 
         />
 
-        <GridItem w="350px" h="200px">
+        <GridItem w={['280px', '350px']} h="200px">
           <Heading
             fontWeight={'medium'}
-            fontSize={32}
+            fontSize={[28, 32]}
             lineHeight={'45px'}
           >
             We accept following payment systems

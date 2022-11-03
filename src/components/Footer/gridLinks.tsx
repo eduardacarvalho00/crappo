@@ -16,7 +16,7 @@ export function GridLinks({
   link1, link2, link3, link4, link5, title, 
 }: LinkFooterProps) {
   return (
-    <GridItem w="200px" h="244px" textAlign={'initial'}>
+    <GridItem w={['150px', '200px']} h="244px" textAlign={'initial'}>
           <Heading fontWeight={'medium'} fontSize={20} mb={'24px'}>
             {title}
           </Heading>
