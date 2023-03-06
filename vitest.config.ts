@@ -12,6 +12,10 @@ export default mergeConfig(
       deps: {
         fallbackCJS: true, // para o chakra ui
       },
+      coverage: {
+        provider: 'c8',
+        reporter: ['text', 'json', 'html'],
+      },
     },
   }),
 );
