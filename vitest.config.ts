@@ -16,6 +16,7 @@ export default mergeConfig(
         provider: 'c8',
         reporter: ['text', 'json', 'html'],
       },
+      reporters: ['html'],
     },
   }),
 );
